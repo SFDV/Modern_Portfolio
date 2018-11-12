@@ -1,0 +1,72 @@
+html body {
+    height: 100%;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: repeat;
+    margin: 0px;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    padding-top: 1.5%;
+}
+
+#navTab {
+    margin: auto;
+    width: 100%;
+    padding-top: 5%;
+    text-align: right;
+}
+
+main {
+    display: block;
+
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    margin-top: 20px;
+
+    background-color: #e6e7e9;
+    border: 2px black solid;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    height: 128px;
+    background-color: black;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navChosen {
+    font-weight: bold;
+}
+
+#social img {
+    height: 100px;
+    width: auto;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
