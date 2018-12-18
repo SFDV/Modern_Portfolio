@@ -24,11 +24,12 @@ function populateList(){
         htmlString += "<h1>" + projects[i].title + "</h1>\n";
         htmlString += "<p>" + projects[i].description + "</p>\n";
 
-        for (var h=0; h < projects.links.length; h++) {
+        for (var h=0; h < projects.link.length; h++) {
             htmlString += "<a href=\"" + projects[i].links[h][0] + "\">" + projects[i].links[h][1] + "</a> ";
         }
 
         htmlString += "\n</section>\n<div>"
     }
+    
     list.innerHTML = htmlString;
 }
