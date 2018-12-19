@@ -9,7 +9,7 @@ var projects = [
     {
         title: "My America Guide",
         image: "./img/americalogo.png",
-        description: "A group project form the Rutger's Coding Bootcamp. This application takes the location a user inputs, and runs it through a sreies of APIs in order to display information such as weather, local news, and notable landmarks of the area. Technologies used include Bootstrap, jQuery, and Firebase. Created in conjunction with <a href=\"https://github.com/derkche\">Derek Chee</a>, <a href=\"https://github.com/mlech413\">Mark Lech</a>, <a href=\"https://github.com/OperaSinger\">Vale Rideout</a>, and <a href=\"https://github.com/tundesalisu\">Salisu Babatunde</a>  ",
+        description: "A group project form the Rutger's Coding Bootcamp. This application takes the location a user inputs and runs them through a series of APIs in order to display information such as weather, local news, and notable landmarks of the area. Technologies used include Bootstrap, jQuery, and Firebase. Created in conjunction with <a href=\"https://github.com/derkche\">Derek Chee</a>, <a href=\"https://github.com/mlech413\">Mark Lech</a>, <a href=\"https://github.com/OperaSinger\">Vale Rideout</a>, and <a href=\"https://github.com/tundesalisu\">Salisu Babatunde</a>  ",
         link: [["https://derkche.github.io/MyAmericanGuide/", "Check out My America Guide!"]]
     }
 ]
