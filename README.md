@@ -1,1 +1,0 @@
-# danvickey.github.io
