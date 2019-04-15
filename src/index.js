@@ -1,18 +1,51 @@
-let social = [
+let skill = [
     {
-        img:"./img/facebook.png",
-        link:"https://www.facebook.com/SuperFamousDanV"
+        img:"./img/html-5-logo.png",
     },
 
     {
-        img:"./img/github.png",
-        link:"https://github.com/SFDV"
+        img:"./img/css-3-logo.png",
     },
 
     {
-        img:"./img/linkedin.png",
-        link:"https://www.linkedin.com/in/dan-vickey-33654b156/"
-    }
+        img:"./img/js-logo.png",
+    },
+
+    {
+        img:"./img/handlebars-js.png",
+    },
+
+    {
+        img:"./img/jquery-logo.png",
+    },
+
+    {
+        img:"./img/nodejs.png",
+    },
+    
+    {
+        img:"./img/react-logo.png",
+    },
+
+    {
+        img:"./img/mysql-logo.png",
+    },
+
+    {
+        img:"./img/firebase.png",
+    },
+
+    {
+        img:"./img/mongodb-logo.png",
+    },
+
+    {
+        img:"./img/Sequelize.png",
+    },
+
+    {
+        img:"./img/express.png",
+    },
 ]
 
 window.onload = function() {
@@ -20,10 +53,10 @@ window.onload = function() {
 }
 
 function fillSocial() {
-    let s = document.getElementById("social");
+    let s = document.getElementById("skill");
     let htmlString= "";
-    for (let i=0; i < social.length; i++) {
-        htmlString += "<a href=\"" + social[i].link + "\"><img src=\"" + social[i].img + "\" /></a>"
+    for (let i=0; i < skill.length; i++) {
+        htmlString += "<img src=\"" + skill[i].img + "\" /></a>"
     }
     s.innerHTML = htmlString;
 }

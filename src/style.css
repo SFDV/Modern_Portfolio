@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+/* Body */
+
 html body {
     height: 100%;
 }
@@ -8,68 +12,87 @@ body {
     margin: 0px;
 }
 
-.logo {
-    height: 100px;
-    width: auto;
-    float: left;
-    padding-top: 1.5%;
-}
+/* Nav Bar */
 
-#navTab {
+nav {
     margin: auto;
-    width: 100%;
-    padding-top: 5%;
+    margin-top: 10px;
+    height: 128px;
+    width: 90%;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 20px;
     text-align: right;
 }
 
-main {
-    display: block;
+ul {
+    margin-right: 35px;
+}
 
+li {
+    display: inline-block;
+    margin-top: 3.5%;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+li:hover {
+    transform: scale(1.1)
+}
+
+.navlink {
+    color: #eff3ff;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Staatliches', cursive;
+    transition: 0.5s;
+}
+
+.navlink:hover {
+    color: #f9fdff;
+}
+
+/* Homepage */
+
+main {
     margin: auto;
     text-align: center;
     width: 90%;
     margin-top: 20px;
-
     background-color: #e6e7e9;
     border: 2px black solid;
+    border-radius: 15px;
 }
 
-nav {
-    width: 100%;
-    margin: auto;
-    height: 128px;
-    background-color: black;
-    font-size: 20px;
+section {
+    width: 400px;
 }
 
-nav ul {
-    list-style: none;
-    display: inline;
+#skill img {
+    height: 75px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: .5s;
+
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%); 
 }
 
-nav ul li {
-    display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
+#skill img:hover {
+    transform: scale(1.1);
+
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.navChosen {
-    font-weight: bold;
-}
-
-#social img {
-    height: 100px;
-    width: auto;
-    padding-bottom: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
+/* Projects */
 
 .project {
     border: 1px black solid;
@@ -118,5 +141,5 @@ nav ul li a {
 
 .project a {
 	color: blue;
-	font-size: 20px;
+    font-size: 20px;
 }
