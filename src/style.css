@@ -96,7 +96,7 @@ main {
     margin-right: 75px;
 }
 
-section {
+#skill {
     margin: auto;
     width: 400px;
 }
@@ -128,51 +128,86 @@ section {
 /* Projects */
 
 .project {
-    border: 1px black solid;
-    width: 65% !important;
-    display: inline-block;
+    height: 500px;
+    width: 45%;
+    margin-left: 7px;
+    margin-right: 7px;
     background-color: #e6e7e9;
     color: black;
-    text-align: left;
-
-    height: auto;
-
-    padding-bottom: 10px;
+    text-decoration: none;
+    border: 2px black solid;
     border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    transition: 0.5s;
 }
 
-.project section {
-	float: left;
-	width: 65%;
-	border-left: 1px lightgray solid;
-	padding-left: 20px;
-	height: 100%;
-	padding-right: 4%;
+.project:hover {
+    transform: scale(1.03);
+    background-color: white;
 }
 
-.project img {
-    height: 200px;
-    width: 200px;
-
+#project-image {
+    height: 250px;
+    width: 250px;
     max-height: 90%;
-	float: left;
+	float: center;
 	margin: 10px;
 }
 
-.project h1 {
+.title {
 	font-size: 26px;
 }
 
-.project p {
-	padding: 0;
+.description {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
 	font-size: 14px;
 }
 
-.project p a {
-	font-size: 15px;
+.technology {
+    font-size: 15px;
+    font-weight: bold;
 }
 
-.project a {
-	color: blue;
-    font-size: 20px;
+.partner {
+    color: black;
+    text-decoration: underline;
 }
+
+.github-link {
+    height: 100px;
+    width: 92%;
+    margin: auto;
+    margin-top: 5px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.github-link:hover {
+    transform: scale(1.03);
+}
+
+.octocat {
+    position: relative;
+    float: left;
+    height: 75px;
+    width: 75px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.github-link p {
+    margin-top: 40px;
+    margin-left: 15px;
+    float: left;
+}
+
