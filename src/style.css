@@ -18,7 +18,7 @@ nav {
     margin: auto;
     margin-top: 10px;
     height: 128px;
-    width: 90%;
+    width: 95%;
     border-radius: 15px;
     background-color: black;
     font-size: 20px;
@@ -52,24 +52,57 @@ li:hover {
     color: #f9fdff;
 }
 
+/* Footer */
+
+footer {
+    margin: auto;
+    margin-bottom: 10px;
+    height: 85px;
+    width: 95%;
+    font-family: 'Staatliches', cursive;
+    color: #eff3ff;
+    text-align: center;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.footerlabel {
+    display: inline-block;
+    margin-top: 32px;
+}
+
 /* Homepage */
 
 main {
     margin: auto;
-    text-align: center;
-    width: 90%;
     margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    max-height: inherit;
+    width: 94%;
     background-color: #e6e7e9;
     border: 2px black solid;
     border-radius: 15px;
+    overflow: hidden;
+}
+
+#homepage-container {
+    position: relative;
+    float: right;
+}
+
+#my-bio {
+    margin-right: 75px;
 }
 
 section {
+    margin: auto;
     width: 400px;
 }
 
 #skill img {
-    height: 75px;
+    height: 60px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;

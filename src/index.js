@@ -49,10 +49,10 @@ let skill = [
 ]
 
 window.onload = function() {
-    fillSocial();
+    fillSkill();
 }
 
-function fillSocial() {
+function fillSkill() {
     let s = document.getElementById("skill");
     let htmlString= "";
     for (let i=0; i < skill.length; i++) {
