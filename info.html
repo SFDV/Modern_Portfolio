@@ -33,21 +33,24 @@
         <div class="contact-form-wrapper">
             <h2>Email Me</h2>
     
-            <form class="contact-form" action="src/contactform.php" method="POST">
-                <p id="label">Name:</p>
-                <input type="text" name="name" placeholder="Name">
+            <form class="contact-form" id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSd-xurhDg3B8ulfpmDlzQxgTFlkrgDmbcV36XCW7_B7NKf27w/formResponse?">
+                <p id="label" for="entry.302170431">Name:</p>
+                <input type="text" name="entry.302170431" id="entry.302170431" placeholder="Name">
                 <br>
-                <p id="label">Email:</p>
-                <input type="text" name="email" placeholder="Email">
+                <p id="label" for="entry.2090018961">Email:</p>
+                <input type="text" name="entry.2090018961" id="entry.2090018961" placeholder="Email">
                 <br>
-                <p id="label">Subject:</p>
-                <input type="text" name="subject" placeholder="Subject">
-                <br id="label">
-                <p id="label">Message:</p>
-                <textarea name="message" placeholder="Message" rows="4"></textarea>
+                <p id="label" id="entry.1363338737">Subject:</p>
+                <input type="text" name="entry.1363338737" id="entry.1363338737" placeholder="Subject">
+                <br>
+                <p id="label" id="entry.551461480">Message:</p>
+                <textarea name="entry.551461480" id="entry.551461480" placeholder="Message" rows="8" cols="50"></textarea>
                 <br><br>
                 <button type="submit" name="submit">Send</button>
             </form>
+
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none" onload="if(submitted)"></iframe>
+
         </div>
 
     </main>
@@ -58,7 +61,14 @@
         </div>
     </footer>
 
-   
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" 
+    crossorigin="anonymous"></script>
+
+    <script>
+        $('#gform').on('submit', function(e){
+            $('#gform').prepend('Your message has been sent. Thank you for contacting me!');
+        });
+    </script>
     
 </body>
 </html>

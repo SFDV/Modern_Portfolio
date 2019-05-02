@@ -211,3 +211,8 @@ main {
     float: left;
 }
 
+/* Info */
+iframe {
+    display: none;
+}
+
