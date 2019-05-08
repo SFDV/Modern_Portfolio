@@ -35,22 +35,30 @@
     
             <form class="contact-form" id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSd-xurhDg3B8ulfpmDlzQxgTFlkrgDmbcV36XCW7_B7NKf27w/formResponse?">
                 <p id="label" for="entry.302170431">Name:</p>
-                <input type="text" name="entry.302170431" id="entry.302170431" placeholder="Name">
+                <input type="text" name="entry.302170431" id="entry.302170431" placeholder="Name" required>
                 <br>
                 <p id="label" for="entry.2090018961">Email:</p>
-                <input type="text" name="entry.2090018961" id="entry.2090018961" placeholder="Email">
+                <input type="text" name="entry.2090018961" id="entry.2090018961" placeholder="Email" required>
                 <br>
                 <p id="label" id="entry.1363338737">Subject:</p>
-                <input type="text" name="entry.1363338737" id="entry.1363338737" placeholder="Subject">
+                <input type="text" name="entry.1363338737" id="entry.1363338737" placeholder="Subject" required>
                 <br>
                 <p id="label" id="entry.551461480">Message:</p>
-                <textarea name="entry.551461480" id="entry.551461480" placeholder="Message" rows="8" cols="50"></textarea>
-                <br><br>
+                <textarea name="entry.551461480" id="entry.551461480" placeholder="Message" rows="8" cols="50" required></textarea>
+                <br><br><br>
                 <button type="submit" name="submit">Send</button>
             </form>
 
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none" onload="if(submitted)"></iframe>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none" onload="if(submitted){}"></iframe>
 
+        </div>
+
+        <div class="social-media-wrapper">
+            <h2>Reach me through social media</h2>
+            <br>
+            <img class="socmed" src='./img/facebook.png'>
+            <br><br>
+            <img class="socmed" id="linkedin" src='./img/linkedin.png'>
         </div>
 
     </main>
@@ -63,6 +71,10 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" 
     crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        var submitted = false;
+    </script>
 
     <script>
         $('#gform').on('submit', function(e){
