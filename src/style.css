@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+/* General */
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Karla', cursive;
+}
 
 /* Body */
 
