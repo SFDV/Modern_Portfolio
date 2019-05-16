@@ -231,6 +231,10 @@ main {
     float: left;
 }
 
+#gitdesc{
+    color: white;
+}
+
 /* Info */
 
 .contact-form-wrapper {
