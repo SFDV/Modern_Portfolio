@@ -293,6 +293,8 @@ button {
     filter: grayscale(0%); 
 }
 
-#linkedin {
+.socmed {
+    height: 125px;
+    width: 125px;
     border-radius: 10px;
 }
