@@ -116,6 +116,10 @@ main {
     margin-right: 75px;
 }
 
+#resume {
+    color: black;
+}
+
 #skill {
     margin: auto;
     width: 400px;
