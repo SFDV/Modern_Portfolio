@@ -109,7 +109,7 @@ main {
 
 #homepage-container {
     position: relative;
-    float: right;
+    margin-left: 100px;
 }
 
 #my-bio {
