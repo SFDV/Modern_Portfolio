@@ -10,7 +10,7 @@ var projects= [
     {
         title: "My America Guide",
         image: "./img/americalogo.png",
-        description: "A group project form the Rutger's Coding Bootcamp. This application takes the location a user inputs and runs them through a series of APIs in order to display information such as weather, local news, and notable landmarks of the area. Technologies used include Bootstrap, jQuery, and Firebase. <br> <br> Created in conjunction with Derek Chee, Mark Lech,Vale Rideout, and Salisu Babatunde",
+        description: "A group project form the Rutger's Coding Bootcamp. This application takes the location a user inputs and runs them through a series of APIs in order to display information such as weather, local news, and notable landmarks of the area.<br> <br> Created in conjunction with Derek Chee, Mark Lech,Vale Rideout, and Salisu Babatunde",
         technology:"Technologies used: HTML, CSS, JavaScript, Express, Ajax, Nodejs, Firebase",
         link:"https://derkche.github.io/MyAmericanGuide/"
     }
